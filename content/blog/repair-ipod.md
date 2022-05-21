@@ -40,7 +40,6 @@ Today, anyone can begin learning how to repair broken stuff. While technical exp
 ## Now, the iPod
 
 
-
 This recent fascination lead me to hound for broken things to practice my novice repair skills with. I had no specific rubric with which to refer to when it comes to what exact kinds of things to fix, but I guess the main driver would be, repairing it would bring its functionality back and add value (again) to life.
 
 
