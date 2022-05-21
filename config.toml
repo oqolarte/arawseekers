@@ -1,0 +1,20 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Araw Seekers"
+
+[permalinks]
+	blog = "/:filename/"
+
+[frontmatter]
+	date = ["date", "publishDate"]
+
+[params]
+	homeText = "(A)typical Experiences via Photosynthesis"
+	dateFormat = "2006 Jan 2"
+
+[menu]
+	[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+	[[menu.main]]

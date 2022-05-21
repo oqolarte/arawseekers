@@ -1,0 +1,29 @@
+{{ define "main" }}
+
+<div>
+	<figure>
+		<img src="/images/twMG10.jpg" style="width:100%">
+	</figure>
+	<h1>🌞 Araw Seekers 🌞</h1>
+	<p>We are Isya and Ohio&mdash;currently occupying the same space and breathing the same air&mdash;who, one day, decided to write the journey and exploration of our thoughts, musings, and actions &mdash; published in the internet to be archived and to serve as reference in understanding and living our Present.</p>
+	<p>The expressions written, hopefully, may help others navigate their own future musings and adventures.</p>
+	<p>Questions? Comments? Suggestions? Contact us: <a class="ftext" href="seekers@araw.xyz">seekers@araw.xyz</a></p>
+</div>
+
+<a href="#blog"><h3 class="mbanner">Blog</h3></a>
+<p>
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $pages.ByPublishDate.Reverse }}
+<code>{{ .PublishDate.Format "2006 Jan 02" }}: </code>	
+    <a href="{{ .Permalink | relURL }}">{{ .Title }}</a> <br>
+{{ end }}
+</p>
+
+<a href="#projects"><h3 class="mbanner">Projects</h3></a>
+
+<p>
+<a href="/alwayscarry">Always Carry</a> is our small online shop<br>
+<a href="/jimcaring">Jimmy Caring</a> is our attempt at vermiculture<br>
+<a href="/colophon">This Site!</a> Lorem-ipsum Machinations <br>
+</p>
+{{ end }}
