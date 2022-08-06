@@ -38,10 +38,6 @@ a:hover { color: #949ba0; text-decoration: underline }
 	border-radius:2em;
 	text-align: center
 }
-video::-webkit-media-controls-panel {
-    display: flex !important;
-    opacity: 1 !important;
-}
 footer {padding: 0.6em;text-align: center}
 .footnotes {font-size: 0.65em}
 .ftext {font-family: sans-serif}
