@@ -15,8 +15,6 @@ we decided to try and make one our own.
 
 Edgar demonstrates how he drinks from the finished build.
 
-{{< video src="/images/diy-fountain-01.mp4" >}}
-
 This build is modular, portable,
 and dare we say, more affordable in the long run.
 
@@ -55,8 +53,6 @@ This is because it's germ-resistant---bacteria can't enter hard and non-porous s
 Notice how this material is also used in most,
 if not all,
 surgical equipments that surgeons use.
-
-{{< video src="/images/diy-fountain-02.mp4" >}}
 
 ## Assembly
 
@@ -103,7 +99,7 @@ you have to:
 and then lift the plate
 4. Check the water 
 
-{{< video src="/images/diy-fountain-04.mp4" >}}
+{{< youtube id="ozlZ56wvTIg" title="DIY Fountain Demo" >}}
 
 ## Conclusion
 

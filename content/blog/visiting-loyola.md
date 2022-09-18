@@ -1,6 +1,6 @@
 ---
 title: "Visiting Loyola"
-date: 2022-08-06T13:37:53+08:00
+date: 2022-08-06T03:37:53+08:00
 tags: []
 draft: false
 ---
