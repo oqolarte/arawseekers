@@ -38,6 +38,12 @@ a:hover { color: #949ba0; text-decoration: underline }
 	border-radius:2em;
 	text-align: center
 }
+a[href^="http://"]:not([href*="seekers.araw.xyz"]):after,
+a[href^="https://"]:not([href*="seekers.araw.xyz"]):after, {
+	content: "\2197"
+	color: #949ba0;
+	display: inline-block
+}
 footer {padding: 0.6em;text-align: center}
 .footnotes {font-size: 0.65em}
 .ftext {font-family: sans-serif}
